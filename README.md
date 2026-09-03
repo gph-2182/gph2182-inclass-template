@@ -16,9 +16,19 @@ organization, so it is already visible for grading.
 
 ## Every week
 
-1. Download that week's worksheet (`week-NN-inclass.qmd`) from the
-   [course website](https://gph-2182.github.io/) week page and put it in this
-   project's folder.
+1. Get the worksheet with one line in the RStudio **Console** (from inside this
+   project):
+
+   ```r
+   source("get_worksheet.R")
+   get_worksheet(2)      # use that week's number
+   ```
+
+   This downloads `week-NN-inclass.qmd` into the project folder, correctly
+   named. It never overwrites a file you already have. (Worksheets unlock on
+   the course website the Sunday before class; if you prefer, you can also
+   download the file from that week's page on
+   [gph-2182.github.io](https://gph-2182.github.io/).)
 2. Put **both partners' names** in the `author` field at the top.
 3. Fill in the code chunks with your partner during class.
 4. Click **Render** and confirm the HTML looks clean.
