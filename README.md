@@ -1,28 +1,30 @@
 # In-Class Exercises: GPH-GU 2182 (Statistical Programming in R)
 
 This is **your personal repository** for the weekly in-class paired exercises.
-You will use this same repository all semester.
+You accepted it once through Classroom 50 and you will reuse it all semester.
 
 ## First-time setup (once)
 
-1. Click the green **Use this template** button at the top of this page, then
-   **Create a new repository**.
-2. Name it `gph2182-inclass`, keep it **Public** (or Private if you prefer, but
-   then add `yangfengstat` and `sabrinawujingshu` as collaborators), and create it.
-3. In RStudio: **File -> New Project -> Version Control -> Git**, paste your new
-   repository's URL, and choose a local folder.
-4. Send your repository URL to the instructor once (see the course announcement).
+1. Copy this repository's URL from your browser's address bar.
+2. In RStudio: **File -> New Project -> Version Control -> Git**, paste the URL,
+   choose a local folder, and click **Create Project**.
+3. You should now see a **Git** tab in the top-right pane. If you do not, you
+   opened a plain folder instead of a Git project; repeat step 2.
+
+Nothing to send the instructor: this repository lives in the course
+organization, so it is already visible for grading.
 
 ## Every week
 
 1. Download that week's worksheet (`week-NN-inclass.qmd`) from the
-   [course website](https://gph-2182.github.io/) week page and put it in this folder.
+   [course website](https://gph-2182.github.io/) week page and put it in this
+   project's folder.
 2. Put **both partners' names** in the `author` field at the top.
 3. Fill in the code chunks with your partner during class.
-4. Click **Render** in RStudio and confirm the HTML looks clean.
+4. Click **Render** and confirm the HTML looks clean.
 5. Commit and push before the end of class:
    - Check the boxes in RStudio's **Git** pane (stage)
-   - **Commit** with a short message, e.g. `week 1 in-class`
+   - **Commit** with a short message, e.g. `week 2 in-class`
    - **Push**
 
 ## Grading
@@ -33,6 +35,6 @@ that you engage with your partner and push your work by the end of class.
 
 ## Getting help
 
-Ask during class, come to office hours, or email the instructor or course
-assistant. If Git or GitHub gives you trouble, do the R work first and we will
-sort out the push together.
+If Git or GitHub gives you trouble, do the R work first and we will sort out
+the push together. Ask in class, come to office hours, or email the instructor
+or course assistant with a screenshot of the exact error.
