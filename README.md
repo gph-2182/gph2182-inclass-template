@@ -5,14 +5,35 @@ You accepted it once through Classroom 50 and you will reuse it all semester.
 
 ## First-time setup (once)
 
+Open RStudio. You do not need a project open, and you do not need to copy any
+link from this page. Paste these two lines into the **Console**:
+
+```r
+source("https://gph-2182.github.io/gph2182.R")
+gph_inclass()
+```
+
+That finds this repository, downloads it, and opens it as an RStudio project.
+You will know it worked when a **Git** tab appears in the top-right pane.
+
+If it says it cannot tell who you are on GitHub, run `gph_setup()` first,
+follow what it asks, then `gph_inclass()` again. You do that once per computer.
+
+<details>
+<summary>Doing it by hand instead</summary>
+
 1. Copy this repository's URL from your browser's address bar.
-2. In RStudio: **File -> New Project -> Version Control -> Git**, paste the URL,
+2. In RStudio: **File > New Project > Version Control > Git**, paste the URL,
    choose a local folder, and click **Create Project**.
 3. You should now see a **Git** tab in the top-right pane. If you do not, you
-   opened a plain folder instead of a Git project; repeat step 2.
+   opened a plain folder rather than a Git project; repeat step 2.
+
+</details>
 
 Nothing to send the instructor: this repository lives in the course
-organization, so it is already visible for grading.
+organization, so it is already visible for grading. **Do not create your own
+in-class repository under your personal GitHub account.** One made by hand is
+invisible to us, and if it is public your classmates can read your answers.
 
 ## Every week
 
